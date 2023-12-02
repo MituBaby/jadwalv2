@@ -3,7 +3,7 @@ name: Node.js CI
 on:
   push:
     branches:
-      - main  # Ganti dengan nama branch yang sesuai
+      - master  # Ganti dengan nama branch yang sesuai
 
 jobs:
   build:
