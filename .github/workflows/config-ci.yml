@@ -3,7 +3,7 @@ name: CI for karsajobs  # Descriptive name for your CI workflow
 on:
   push:
     branches:
-      - karsajobs  # Trigger the workflow only on pushes to the 'karsajobs' branch
+      - master  # Trigger the workflow only on pushes to the 'karsajobs' branch
 
 jobs:
   build:
