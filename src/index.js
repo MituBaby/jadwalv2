@@ -8,7 +8,7 @@ import userRouter from './routes/user.js';
 import scheduleRouter from './routes/schedules.js';
 
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT;
 
 connectMongoDB();
 app.use(bodyParser.json());
